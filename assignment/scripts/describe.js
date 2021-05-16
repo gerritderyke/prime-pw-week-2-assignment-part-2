@@ -73,7 +73,7 @@ console.log(secret)
 //Create variable isStudent and set boolean value as true.  Create age variable and set to 34.
 //create zip value and set to 55407.  Create compound conditional measuring "and" and "or"
 //and exact match conditional for variables isStudent, age and zip.  conditional 1 "and" true/false.
-//conditional 2 "or" false/false.  conditional 3
+//conditional 2 "or" false/false.  conditional 3 true.  So, we would log('Welcome to Prime!').
 
 //CODE
 /*
@@ -134,6 +134,8 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX -> instructions state that colorOne and colorTwo are set to purple.
+// need to add colorTwo = 'purple'; into the conditional.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +149,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX -> incorrect compound conditional.  need to use && so that true is required in both conditions.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +163,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX -> the conditional is true.  'enter' needs to be in the 'if' log.
 if(minAge <= age) {
   console.log('no entry');
 } else {
